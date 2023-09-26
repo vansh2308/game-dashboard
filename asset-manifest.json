@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/game-dashboard/static/css/main.e2d96612.css",
+    "main.js": "/game-dashboard/static/js/main.8cf47705.js",
+    "static/media/sub2.png": "/game-dashboard/static/media/sub2.724f66fb7292d1e417cc.png",
+    "static/media/sub1.png": "/game-dashboard/static/media/sub1.6f1813957354c0527196.png",
+    "static/media/cat2.png": "/game-dashboard/static/media/cat2.10e3bbb5a281d5d87ef0.png",
+    "static/media/cat3.png": "/game-dashboard/static/media/cat3.c9e4313ffdaadf85aa4d.png",
+    "static/media/sub3.png": "/game-dashboard/static/media/sub3.63b764718a91a5c2673f.png",
+    "static/media/sub0.png": "/game-dashboard/static/media/sub0.3bbf53cbb7814909308d.png",
+    "static/media/cat0.png": "/game-dashboard/static/media/cat0.e72ae4a40ac0e4951722.png",
+    "static/media/cat4.png": "/game-dashboard/static/media/cat4.18b3db16f7969d60a830.png",
+    "static/media/cat1.png": "/game-dashboard/static/media/cat1.5e5ce7133f8f15419ef6.png",
+    "static/media/esport.png": "/game-dashboard/static/media/esport.b032e837f669eff78945.png",
+    "static/media/slideshowbg0.jpg": "/game-dashboard/static/media/slideshowbg0.f10246a7b6ab5c32242e.jpg",
+    "static/media/slideshowbg1.jpg": "/game-dashboard/static/media/slideshowbg1.d2d65fde96249d9f64f7.jpg",
+    "static/media/slideshowbg2.jpg": "/game-dashboard/static/media/slideshowbg2.347e0dc104126618e3d0.jpg",
+    "static/media/trophy.jpeg": "/game-dashboard/static/media/trophy.3853ca0584cb1b77cf3d.jpeg",
+    "static/media/profile-pic.jpeg": "/game-dashboard/static/media/profile-pic.92641795d64228bca9ff.jpeg",
+    "index.html": "/game-dashboard/index.html",
+    "main.e2d96612.css.map": "/game-dashboard/static/css/main.e2d96612.css.map",
+    "main.8cf47705.js.map": "/game-dashboard/static/js/main.8cf47705.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2d96612.css",
+    "static/js/main.8cf47705.js"
+  ]
+}
