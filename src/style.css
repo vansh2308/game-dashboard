@@ -5,6 +5,7 @@
   padding: 0;
   overflow: hidden;
   font-family: 'Inter', sans-serif !important;  
+  transition: all 0.1s ease;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -20,6 +21,7 @@ a{text-decoration: none;}
   display: grid;
   grid-template-rows: 10vh 90vh;
   grid-template-columns: 15vw 65vw 20vw;
+  overflow-x: scroll;
 }
 .navbar{
   border-bottom: 2px solid;
@@ -120,6 +122,9 @@ a{text-decoration: none;}
   padding: 2.2vw;
   overflow-y: scroll;
   flex-wrap: nowrap;
+  overflow-x: hidden;
+  max-width: 100%;
+  position: relative;
 }
 .slideshow-container{
   height: 30vh;
@@ -148,8 +153,16 @@ a{text-decoration: none;}
 }
 
 .subs-tile{
+  display: inline;
   float: left;
   margin-right: 15px;
+  min-width: 15vw;
+}
+
+.subs-container{
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
 }
 
 .subs-tile .img-container{
@@ -162,11 +175,13 @@ a{text-decoration: none;}
 }
 
 
-
 .right-sidebar{
   border-left: 2px solid;
   padding: 2vw;
 }
+
+
+
 
 .stats{
   display: grid;

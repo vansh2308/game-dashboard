@@ -80,7 +80,6 @@ export default function Main(props){
 
   return(
     <div className='main'>
-      {/* <img src={slidebg0}></img> */}
       
       <div className='slideshow-container' ref={myRef} style={{background: `url(${slidebg0})`}}>
         <div style={{background: "linear-gradient(transparent, #000000ab)", position:"absolute", width:"100%", height:"100%"}}></div>
@@ -92,7 +91,7 @@ export default function Main(props){
 
 
       <span style={{fontWeight: 600, color: props.theme.font}}>Top categories</span>
-      <div style={{display: 'flex', columnGap: "15px", width: "fit-content", overflowX:"scroll", margin: "2vh 0 4vh 0"}}>
+      <div style={{display: 'flex', columnGap: "15px", width: "fit-content", overflowX:"scroll", margin: "2vh 0 4vh 0", position: "relative"}}>
         {cat_list.map((cat) => {
           return(
             <CategoryTile theme={props.theme} details={cat}/>
@@ -101,7 +100,7 @@ export default function Main(props){
       </div>
 
       <span style={{fontWeight: 600, color: props.theme.font}}>Subscriptions</span>
-      <div style={{width: "max-content", overflowX:"scroll", margin: "2vh 0 4vh 0"}}>
+      <div style={{}} className='subs-container'>
         {subs_list.map((item) => {
           return(
             <SubsTile theme={props.theme} details={item}/>
